@@ -1,5 +1,9 @@
 
-
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .myboton {
     background-color: rgba(255, 255, 255, 0.2); /* Fondo transparente */
     border: none; /* Sin borde */
@@ -9,7 +13,7 @@
     cursor: pointer; /* Cambia el cursor cuando pasas por encima */
     display: inline-block; /* Hace que el botón se muestre en línea */
     font-size: 16px; /* Tamaño del texto */
-    margin: 20px auto; /* Margen superior e inferior y centrado horizontal */
+    margin: 5px auto; /* Margen superior e inferior y centrado horizontal */
     padding: 12px 24px; /* Espacio interno */
     text-align: center; /* Centrar el texto */
     text-decoration: none; /* Sin subrayado */
@@ -21,4 +25,14 @@
     background-color: rgba(255, 255, 255, 0.4); /* Fondo transparente con un poco más de opacidad al pasar el cursor */
     box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.3); /* Aumentar la intensidad de la sombra al pasar el cursor */
   }
+
+  .textDiv {
+   margin: 0px; 
+   padding: 0px;
+  }
   
+  .text{
+    margin: 0px;
+    color: #fff;
+    font-size: 14px;
+  }
