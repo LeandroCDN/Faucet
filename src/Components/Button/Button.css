@@ -1,0 +1,24 @@
+
+
+.myboton {
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo transparente */
+    border: none; /* Sin borde */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Sombra */
+    color: #fff; /* Color del texto */
+    cursor: pointer; /* Cambia el cursor cuando pasas por encima */
+    display: inline-block; /* Hace que el botón se muestre en línea */
+    font-size: 16px; /* Tamaño del texto */
+    margin: 20px auto; /* Margen superior e inferior y centrado horizontal */
+    padding: 12px 24px; /* Espacio interno */
+    text-align: center; /* Centrar el texto */
+    text-decoration: none; /* Sin subrayado */
+    text-transform: uppercase; /* Convertir el texto a mayúsculas */
+    transition: 0.3s ease; /* Transición suave */
+  }
+  
+  .myboton:hover {
+    background-color: rgba(255, 255, 255, 0.4); /* Fondo transparente con un poco más de opacidad al pasar el cursor */
+    box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.3); /* Aumentar la intensidad de la sombra al pasar el cursor */
+  }
+  
